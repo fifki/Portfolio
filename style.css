@@ -355,7 +355,8 @@ article .icon {
 
 /* PROJECTS SECTION */
 
-#projects {
+#projects  {
+  margin: 10rem;
   position: relative;
 }
 
@@ -370,14 +371,23 @@ article .icon {
   height: 90%;
 }
 
-.project-title {
+.project-title, p {
+  padding: auto;
   margin: 1rem;
   color: black;
 }
 
 .project-btn {
+ 
   color: black;
   border-color: rgb(163, 163, 163);
+}
+/*hobbies*/
+#hobbies{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
 }
 
 /* CONTACT */
