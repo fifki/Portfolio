@@ -7,20 +7,26 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="timeline.css" />
+    
+    
   </head>
+
   <body>
     <nav id="desktop-nav">
       <div class="logo">f.ifkirne </div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
-          <li><a href="#experience">Skills</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#timeline">Timeline</a></li>
           <li><a href="#hobbies">Hobbies</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
+
     <nav id="hamburger-nav">
       <div class="logo">f.ifkirne </div>
       <div class="hamburger-menu">
@@ -29,16 +35,19 @@
           <span></span>
           <span></span>
           <span></span>
+
         </div>
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#timeline" onclick="toggleMenu()">Timeline</a></li>
           <li><a href="#hobbies" onclick="toggleMenu()">Hobbies</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
     </nav>
+
     <section id="profile">
       <div class="section__pic-container">
         <img src="./assets/Me.jpg" alt="profile picture" />
@@ -74,6 +83,7 @@
         </div>
       </div>
     </section>
+
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
@@ -89,8 +99,8 @@
           <div class="about-containers">
             <div class="details-container">
               <img
-                src="./assets/experience.png"
-                alt="Experience icon"
+                src="./assets/skills.png"
+                alt="skills icon"
                 class="icon"
               />
               <h3>Skills</h3>
@@ -117,21 +127,22 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#experience'"
+        onclick="location.href='#skills'"
       />
     </section>
-    <section id="experience">
+
+    <section id="skills">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">skills</h1>
-      <div class="experience-details-container">
+      <div class="skills-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Software Skills</h2>
+            <h2 class="skills-sub-title">Software Skills</h2>
             <div class="article-container">
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="skills icon"
                   class="icon"
                 />
                 <div>
@@ -142,7 +153,7 @@
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="skills icon"
                   class="icon"
                 />
                 <div>
@@ -153,7 +164,7 @@
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="skills icon"
                   class="icon"
                 />
                 <div>
@@ -165,7 +176,7 @@
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="skills icon"
                   class="icon"
                 />
                 <div>
@@ -178,12 +189,12 @@
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Programming languages </h2>
+            <h2 class="skills-sub-title">Programming languages </h2>
             <div class="article-container">
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="skills icon"
                   class="icon"
                 />
                 <div>
@@ -194,7 +205,7 @@
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="skills icon"
                   class="icon"
                 />
                 <div>
@@ -205,7 +216,7 @@
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="skills icon"
                   class="icon"
                 />
                 <div>
@@ -216,7 +227,7 @@
               <article>
                 <img
                   src="./assets/checkmark.png"
-                  alt="Experience icon"
+                  alt="skills icon"
                   class="icon"
                 />
                 <div>
@@ -232,13 +243,14 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#projects'"
+        onclick="location.href='#projects'"
       />
     </section>
+
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
+      <div class="skills-details-container">
         <div class="about-containers">
           <div class="details-container color-container">
             <div class="article-container">
@@ -248,7 +260,7 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title"> MyBlogWebsite </h2>
+            <h2 class="skills-sub-title project-title"> MyBlogWebsite </h2>
             <p> Mern stack project  </p>
             <div class="btn-container">
               <button
@@ -267,7 +279,7 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">AnimeGalery</h2>
+            <h2 class="skills-sub-title project-title">AnimeGalery</h2>
             <p> FrontEnd project </p>
             <div class="btn-container">
               <button
@@ -287,7 +299,7 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title"> Object detection </h2>
+            <h2 class="skills-sub-title project-title"> Object detection </h2>
             <p> Machine Learning </p>
             <div class="btn-container">
               <button
@@ -305,9 +317,67 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#hobbies'"
+        onclick="location.href='#timeline'"
       />
     </section>
+
+    <section id="timeline">
+      <p class="section__text__p1">Timeline</p>
+      <h1 class="title">Academic Bckground</h1>
+      <div class="timeline">
+        <div class="container left-container">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfAOST4Rd06vwC8M1I294AY1lfZfXE43dYY7Y_X3cg6g&s" alt="">
+          <div class="textbox">
+              <h2>INSA Lyon </h2>
+              <small class>Septembre - 2023 </small>
+              <p>
+                  3th year computer science departement.
+              </p>
+              <span class="left-container-arrow"></span>
+            </div>
+          </div>
+          <div class="container right-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHrqrg7r6pj0kSIVescgl_WMh3P83ZcDZ6kPg4hh4rhQ&s" alt="">
+            <div class="textbox">
+              <h2>ISEN Brest </h2>
+              <small class>2020 - 2021</small>
+              <p>
+                2ed year of preparatory class(CPGE PSI).
+              </p>
+              <span class="right-container-arrow"></span>
+            </div>
+          </div>
+          <div class="container left-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHrqrg7r6pj0kSIVescgl_WMh3P83ZcDZ6kPg4hh4rhQ&s" alt="">
+            <div class="textbox">
+              <h2>ISEN Brest </h2>
+              <small class>2019-2020</small>
+              <p>
+                  First year of preparatory class(CPGE MPSI).
+              </p>
+              <span class="left-container-arrow"></span>
+            </div>
+          </div>
+          <div class="container right-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBAP_gtMRHq1cM84TRc8TrgEnD9IrBJr0U6qK9fM0QETaiD-iKBUqhGESEiHw50xLDJmU&usqp=CAU" alt="">
+            <div class="textbox">
+              <h2> Abedelkarime Elkhattabi high school</h2>
+              <small class>2017-2018</small>
+              <p>
+                  Final year (Physics)
+              </p>
+              <span class="right-container-arrow"></span>
+            </div>
+           </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#hobbies'"
+      />
+    </section>
+    
     <section id="hobbies">
       <p class="section__text__p1"> Get to Know </p>
       <h1 class="title"> Hobbies </h1>
@@ -342,11 +412,10 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#contact'"
+        onclick="location.href='#contact'"
       />
     </section>
 
-    
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
@@ -374,14 +443,15 @@
         <div class="nav-links-container">
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
-            <li><a href="#experience">Skills</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#timeline">Timeline</a></li>
             <li><a href="#hobbies">Hobbies</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 Fatima Ifkirne . All Rights Reserved.</p>
+      <p>Copyright &#169; 2024 Fatima Ifkirne . All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
   </body>
