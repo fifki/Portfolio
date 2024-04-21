@@ -1,5 +1,14 @@
-@media screen and (max-width: 1400px) {
-    #profile {
+@media screen and (max-width: 1200px) {
+  .logo{
+    color: black;
+     font-size: 25px; 
+     font-weight: bold;
+
+  } 
+  #about{
+    margin-top: 20rem;
+  } 
+  #profile {
       height: 83vh;
       margin-bottom: 6rem;
     }
@@ -10,17 +19,14 @@
     #projects {
       height: fit-content;
     }
-  }
-  
-  @media screen and (max-width: 1200px) {
     #desktop-nav {
       display: none;
     }
     #hamburger-nav {
       display: flex;
     }
-    #experience,
-    .experience-details-container {
+    #skills,
+    .skills-details-container {
       margin-top: 2rem;
     }
     #profile,
@@ -45,11 +51,12 @@
     .about-containers {
       margin-top: 0;
     }
-  }
-  
-  @media screen and (max-width: 600px) {
-    #contact,
-    footer {
+    footer nav {
+      margin-top: 20px;
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+    #contact{
       height: 40vh;
     }
 
@@ -59,14 +66,10 @@
 
     #profile {
       height: 83vh;
-      margin-bottom: 0;
+      margin-bottom: 30rem;
     }
     article {
       font-size: 1rem;
-    }
-    footer nav {
-      height: fit-content;
-      margin-bottom: 2rem;
     }
     .about-containers,
     .contact-info-upper-container,
@@ -80,7 +83,7 @@
     .nav-links li a {
       font-size: 1rem;
     }
-    .experience-sub-title {
+    .skills-sub-title {
       font-size: 1.25rem;
     }
     .logo {
@@ -104,5 +107,14 @@
     }
     .text-container {
       text-align: justify;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+
+    footer nav {
+      margin-top: 20px;
+      height: fit-content;
+      margin-bottom: 2rem;
     }
   }
